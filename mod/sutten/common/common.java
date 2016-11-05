@@ -16,7 +16,7 @@ public class common
 @EventHandler
 public void preInit(FMLPreInitializationEvent e) { 
 	items.init();
-	HuiPizda.init();
+	RClickItem.init();
 proxy.preInit(e);
 }
 @EventHandler
