@@ -11,10 +11,8 @@ import net.minecraft.world.World;
 
 public class RClickItem extends Item {
 	
-	 public boolean onItemUse(ItemStack p_77648_1_, EntityPlayer p_77648_2_, World p_77648_3_, int p_77648_4_, int p_77648_5_, int p_77648_6_, int p_77648_7_, float p_77648_8_, float p_77648_9_, float p_77648_10_)
-	    {
-	        return true;
-	    }
+
+	 @Override
 public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
 	 player.swingItem();
 	 System.out.print("Item RClicked");
